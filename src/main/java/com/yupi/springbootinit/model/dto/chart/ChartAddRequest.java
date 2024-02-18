@@ -15,6 +15,8 @@ import java.util.List;
 @Data
 public class ChartAddRequest implements Serializable {
 
+    private String name;
+
     /**
      * 分析目标
      */

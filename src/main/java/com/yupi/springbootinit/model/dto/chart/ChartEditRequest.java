@@ -13,6 +13,8 @@ import java.io.Serializable;
  */
 @Data
 public class ChartEditRequest implements Serializable {
+
+    private String name;
     /**
      * id
      */
